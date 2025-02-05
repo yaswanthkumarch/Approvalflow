@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SECRET_TOKEN = '116671069735682f9eb990efd6d8e25bc4'  // Secret Token you provided
-        BASE_URL = "https://8c03-203-92-62-30.ngrok-free.app"  // Your Ngrok URL
+        BASE_URL = " https://1ae5-115-99-175-167.ngrok-free.app"  // Your Ngrok URL
         APPROVAL_URL = "${BASE_URL}/approve?token=${SECRET_TOKEN}&action=approve"  // Approve URL
         REJECT_URL = "${BASE_URL}/reject?token=${SECRET_TOKEN}&action=reject"  // Reject URL
     }
